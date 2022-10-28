@@ -32,4 +32,9 @@ function game() {
 
 console.log(game())
 
+if (game() == evenOdd) {
+    alert('YOU WIN')
+}else {
+    alert('TRY AGAIN')
+}
 
